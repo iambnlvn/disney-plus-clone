@@ -29,4 +29,4 @@ export const producers = [{
   image: starWars,
   videoUrl:
     "https://res.cloudinary.com/dk3zkgj4n/video/upload/v1690982844/starWars_ubcgns.mp4",
-}];
+}] as const;
