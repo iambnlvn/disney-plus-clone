@@ -8,7 +8,7 @@ const LandingPage = () => {
       <Image
         className="w-full md:h-full h-screen object-cover"
         src={disneyBg}
-        alt=""
+        alt="Disney movies"
         loading="eager"
         priority
       />

@@ -14,7 +14,7 @@ const Discover = () => {
         <Image
           className="px-12 md:px-20 py-2 bg-transparent"
           src={towatch}
-          alt=""
+          alt="overview"
         />
       </section>
       <section className="flex flex-col gap-4 text-center items-center pt-4 pb-8">
@@ -28,7 +28,7 @@ const Discover = () => {
         <Image
           className="w-full px-10 lg:px-28"
           src={exclusive}
-          alt=""
+          alt="exclusive"
         />
       </section>
     </>

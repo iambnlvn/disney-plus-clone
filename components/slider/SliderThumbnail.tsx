@@ -6,7 +6,7 @@ import React, { useRef } from "react";
 import { HiChevronLeft, HiChevronRight } from "react-icons/hi2";
 
 const SliderThumbnail: React.FC<{ data: string }> = (props) => {
-  const windowWidth = window.innerWidth;
+  const windowWidth = globalThis.window?.innerWidth;
 
   const imageBaseUrl = "https://image.tmdb.org/t/p/original";
 

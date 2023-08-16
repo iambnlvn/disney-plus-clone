@@ -10,7 +10,7 @@ const Device: React.FC<DeviceProps> = ({ title, image, subDevices }) => {
       <Image
         className="w-24 h-16 md:w-36 md:h-20 object-contain"
         src={image}
-        alt=""
+        alt={title}
       />
       <h1 className="text-white font-semibold text-lg text-center">{title}</h1>
       <div className="hidden w-full md:flex flex-col gap-y-1 text-center">

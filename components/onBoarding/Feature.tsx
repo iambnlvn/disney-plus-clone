@@ -11,7 +11,7 @@ const Feature: React.FC<FeatureProps> = ({ image, title, content }) => {
       <Image
         className="w-16 md:w-20 my-8"
         src={image}
-        alt=""
+        alt={title}
       />
       <h1 className="text-neutral-300 text-sm md:text-3xl font-bold text-center py-1">
         {title}
