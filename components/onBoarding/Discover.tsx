@@ -9,7 +9,7 @@ const Discover = () => {
           Watch the way you want
         </h1>
         <p className="text-[#656b7f] text-md font-medium">
-          Discover the world's greatest stories, all in one place.
+          Discover the world&apos;s greatest stories, all in one place.
         </p>
         <Image
           className="px-12 md:px-20 py-2 bg-transparent"
@@ -22,8 +22,8 @@ const Discover = () => {
           Exclusive originals
         </h1>
         <p className="text-[#656b7f] text-md font-medium px-6">
-          TV series, movies and documentaries you can't see anywhere else, from
-          the world's greatest storytellers.
+          TV series, movies and documentaries you can&apos;t see anywhere else, from
+          the world&apos;s greatest storytellers.
         </p>
         <Image
           className="w-full px-10 lg:px-28"

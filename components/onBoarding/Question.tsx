@@ -12,9 +12,9 @@ const Question: React.FC<QuestionProps> = ({ question, answer, bullets }) => {
   return (
     <div
       onClick={() => setHidden(!hidden)}
-      className="w-full flex flex-col cursor-pointer gap-1 px-10 divide-y divide-[#656b7f]"
+      className="w-full flex flex-col cursor-pointer gap-1 px-10"
     >
-      <div className="relative flex w-full py-4 items-center">
+      <div className="relative flex w-full py-4 items-center border-b border-b-[#656b7f]">
         <h1 className="text-lg text-[#656b7f] w-3/4 font-semibold">
           {question}
         </h1>
