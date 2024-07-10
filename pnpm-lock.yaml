@@ -44,10 +44,10 @@ importers:
         version: 0.5.4(tailwindcss@3.3.3)
       autoprefixer:
         specifier: 10.4.14
-        version: 10.4.14(postcss@8.4.27)
+        version: 10.4.14(postcss@8.4.31)
       postcss:
-        specifier: 8.4.27
-        version: 8.4.27
+        specifier: 8.4.31
+        version: 8.4.31
       tailwindcss:
         specifier: 3.3.3
         version: 3.3.3
@@ -1786,14 +1786,14 @@ snapshots:
 
   ast-types-flow@0.0.7: {}
 
-  autoprefixer@10.4.14(postcss@8.4.27):
+  autoprefixer@10.4.14(postcss@8.4.31):
     dependencies:
       browserslist: 4.21.10
       caniuse-lite: 1.0.30001518
       fraction.js: 4.2.0
       normalize-range: 0.1.2
       picocolors: 1.0.0
-      postcss: 8.4.27
+      postcss: 8.4.31
       postcss-value-parser: 4.2.0
 
   available-typed-arrays@1.0.5: {}
